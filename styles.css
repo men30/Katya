@@ -38,8 +38,21 @@ div {
 section div {
   padding-top: 50px;
 }
-.sh {
+h1 {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-top: 35%;
+}
+.bg {
+  background-color: black;
+  animation: bg 0.05s infinite alternate;
+}
+@keyframes bg {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
 }
