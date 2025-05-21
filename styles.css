@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 5s forwards;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.header-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #727272;
+  transition: tf 0.3s;
+}
+
+.header-photo:hover {
+  transform: scale(1.05);
+}
+
+div {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.header-text {
+  padding: 30px;
+  color: blueviolet;
+}
+section div {
+  padding-top: 50px;
+}
+.sh {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
